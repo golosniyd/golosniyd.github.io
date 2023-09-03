@@ -78,10 +78,10 @@ content:
   - title: Skills # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - <mark>AWS</mark> <mark>Docker</mark> <mark>Linux</mark> <mark>ELK</mark>
-      - <mark>Kubernetes</mark> <mark>Tomcat</mark> <mark>Helm</mark> <mark>Atlassian Jira</mark>
-      - <mark>Azure DevOps Pipelines</mark> <mark>Git</mark> <mark>Bitbucket</mark> <mark>CircleCI</mark>
-      - <mark>ArgoCD</mark> <mark>Jmeter</mark> <mark>Ansible</mark> <mark>Kafka</mark>
+      <mark>AWS</mark>  <mark>Docker</mark>  <mark>Linux</mark>  <mark>ELK</mark>  <mark>Git</mark>  <mark>Kafka</mark>
+      <mark>Kubernetes</mark>  <mark>Tomcat</mark>  <mark>Helm</mark>  <mark>Atlassian Jira</mark>
+      <mark>Azure DevOps Pipelines</mark>    <mark>Bitbucket</mark>  <mark>CircleCI</mark>
+      <mark>ArgoCD</mark>  <mark>Jmeter</mark>  <mark>Ansible</mark>  
 
   - title: Certificates # Title for the section
     layout: list
