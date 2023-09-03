@@ -78,11 +78,12 @@ content:
   - title: Skills # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - CI: <mark>CircleCI</mark>
-      - CD: <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
+      - Continuous Integration: 
+          - <mark>CircleCI</mark>
+      - Continuous Delivery: <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
       - Databases: <mark>PostgreSQL</mark>
       - Container Orhchestration: <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
-      - Cloud: <mark>AWS</mark>
+      - Cloud Providers: <mark>AWS</mark>
       - Configuration Management: <mark>Ansible</mark> <mark>Terraform</mark>
       - Source Control: <mark>Git</mark> <mark>Bitbucket</mark>
       - Analytics and Monitoring: <mark>Elastic ELK stack</mark>
