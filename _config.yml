@@ -81,14 +81,17 @@ content:
         title: AWS
         sub_title: AWS Certified Solutions Architect - Associate
         caption: 2019 - Present
+
       - layout: left
         title: Kubernetes
         sub_title: Certified Kubernetes Administrator
         caption: 2022 - Present  
+
       - layout: left
         title: Docker
         sub_title: Docker Certified Associate
         caption: 2022 - Present
+        
       - layout: left
         title: Linux
         sub_title: Linux Certified System Administrator
