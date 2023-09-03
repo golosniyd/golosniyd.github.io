@@ -9,7 +9,7 @@ version: 2
 name: Dmitriy Golosniy
 title: DevOps Engineer
 email: dmitriy.golosniy@ya.ru
-website: https://github.com/golosniyd/golosniyd.github.io
+website: https://golosniyd.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
