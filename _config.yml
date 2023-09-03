@@ -106,8 +106,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Middle II Quality Assurance
         caption: November 2019 - Present
-        quote: >
-          Game Development
         description: | # this will include new lines to allow paragraphs
             Started as QA Engineer and moved to DevOps Engineer. 
 
@@ -118,9 +116,7 @@ content:
         title: Volgograd State Agrarian University
         caption: 2009 - 2013
         sub_title: Engineer of road transport systems
-        quote: >
-          About education
-          description: About education
+        description: About education
         
   - title: A Little More About Me
     layout: text
