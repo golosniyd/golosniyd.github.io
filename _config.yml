@@ -80,15 +80,24 @@ content:
     content: |
       - Continuous Integration: 
           - <mark>CircleCI</mark>
-      - Continuous Delivery: <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
-      - Databases: <mark>PostgreSQL</mark>
-      - Container Orhchestration: <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
-      - Cloud Providers: <mark>AWS</mark>
-      - Configuration Management: <mark>Ansible</mark> <mark>Terraform</mark>
-      - Source Control: <mark>Git</mark> <mark>Bitbucket</mark>
-      - Analytics and Monitoring: <mark>Elastic ELK stack</mark>
-      - Testing: <mark>Jmeter</mark> <mark>Selenium</mark>
-      - Other: <mark>Linux</mark> <mark>Kafka</mark> <mark>Atlassian Jira</mark> <mark>Tomcat</mark> 
+      - Continuous Delivery: 
+          - <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
+      - Databases: 
+          - <mark>PostgreSQL</mark>
+      - Container Orhchestration: 
+          - <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
+      - Cloud Providers: 
+          - <mark>AWS</mark>
+      - Configuration Management: 
+          - <mark>Ansible</mark> <mark>Terraform</mark>
+      - Source Control: 
+          - <mark>Git</mark> <mark>Bitbucket</mark>
+      - Analytics and Monitoring: 
+          - <mark>Elastic ELK stack</mark>
+      - Testing: 
+          - <mark>Jmeter</mark> <mark>Selenium</mark>
+      - Other: 
+          - <mark>Linux</mark> <mark>Atlassian Jira</mark> <mark>Tomcat</mark> <mark>Kafka</mark>
 
 
   - title: Certificates # Title for the section
