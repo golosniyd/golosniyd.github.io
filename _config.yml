@@ -91,7 +91,7 @@ content:
         title: Docker
         sub_title: Docker Certified Associate
         caption: 2022 - Present
-        
+
       - layout: left
         title: Linux
         sub_title: Linux Certified System Administrator
@@ -106,7 +106,7 @@ content:
         # link_text: boringcompany.com
         sub_title: Middle II Quality Assurance
         caption: November 2019 - Present
-        # quote: >
+        quote: >
           Game Development
         description: | # this will include new lines to allow paragraphs
             Started as QA Engineer and moved to DevOps Engineer. 
@@ -118,7 +118,7 @@ content:
         title: Volgograd State Agrarian University
         caption: 2009 - 2013
         sub_title: Engineer of road transport systems
-        # quote: >
+        quote: >
           About education
           description: About education
         
