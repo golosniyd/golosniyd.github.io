@@ -78,10 +78,17 @@ content:
   - title: Skills # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      <mark>AWS</mark>  <mark>Docker</mark>  <mark>Linux</mark>  <mark>ELK</mark>  <mark>Git</mark>  <mark>Kafka</mark>
-      <mark>Kubernetes</mark>  <mark>Tomcat</mark>  <mark>Helm</mark>  <mark>Atlassian Jira</mark>
-      <mark>Azure DevOps Pipelines</mark>    <mark>Bitbucket</mark>  <mark>CircleCI</mark>
-      <mark>ArgoCD</mark>  <mark>Jmeter</mark>  <mark>Ansible</mark>  
+      - CI: <mark>CircleCI</mark>
+      - CD: <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
+      - Databases: <mark>PostgreSQL</mark>
+      - Container Orhchestration: <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
+      - Cloud: <mark>AWS</mark>
+      - Configuration Management: <mark>Ansible</mark> <mark>Terraform</mark>
+      - Source Control: <mark>Git</mark> <mark>Bitbucket</mark>
+      - Analytics and Monitoring: <mark>Elastic ELK stack</mark>
+      - Testing: <mark>Jmeter</mark> <mark>Selenium</mark>
+      - Other: <mark>Linux</mark> <mark>Kafka</mark> <mark>Atlassian Jira</mark> <mark>Tomcat</mark> 
+
 
   - title: Certificates # Title for the section
     layout: list
