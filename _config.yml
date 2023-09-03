@@ -78,10 +78,8 @@ content:
   - title: Skills # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - Continuous Integration: 
-          - <mark>CircleCI</mark>
-      - Continuous Delivery: 
-          - <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
+      - CI/CD Tools: 
+          - <mark>CircleCI</mark> <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
       - Databases: 
           - <mark>PostgreSQL</mark>
       - Container Orhchestration: 
@@ -89,15 +87,23 @@ content:
       - Cloud Providers: 
           - <mark>AWS</mark>
       - Configuration Management: 
-          - <mark>Ansible</mark> <mark>Terraform</mark>
+          - <mark>Ansible</mark>
+      - Infrastructure Provisioning:
+          - <mark>Terraform</mark>    
       - Source Control: 
           - <mark>Git</mark> <mark>Bitbucket</mark>
       - Analytics and Monitoring: 
-          - <mark>Elastic ELK stack</mark>
+          - <mark>Elastic ELK stack</mark> <mark>Graylog</mark>
+      - Programming Languages: 
+          - <mark>Python</mark> <mark>Java</mark>  
       - Testing: 
           - <mark>Jmeter</mark> <mark>Selenium</mark>
-      - Other: 
-          - <mark>Linux</mark> <mark>Atlassian Jira</mark> <mark>Tomcat</mark> <mark>Kafka</mark>
+      - Operating Systems:
+          - <mark>Windows</mark> <mark>Ubuntu</mark>  
+      - Web Servers:
+          - <mark>Tomcat</mark> <mark>Nginx</mark>
+      - Others: 
+          - <mark>Atlassian Jira</mark> <mark>Kafka</mark>
 
 
   - title: Certificates # Title for the section
