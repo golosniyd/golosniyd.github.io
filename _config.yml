@@ -79,7 +79,7 @@ content:
     layout: text # Type of content section (list/text)
     content: |
       - CI/CD Tools: 
-          - <mark>CircleCI</mark> <mark>ArgoCD</mark> <mark>Azure DevOps Pipelines</mark> 
+          - <mark>CircleCI</mark> <mark>ArgoCD</mark>
       - Databases: 
           - <mark>PostgreSQL</mark>
       - Container Orhchestration: 
@@ -91,15 +91,13 @@ content:
       - Infrastructure Provisioning:
           - <mark>Terraform</mark>    
       - Source Control: 
-          - <mark>Git</mark> <mark>Bitbucket</mark>
-      - Analytics and Monitoring: 
-          - <mark>Elastic ELK stack</mark> <mark>Graylog</mark>
+          - <mark>Git</mark>
       - Programming Languages: 
           - <mark>Python</mark> <mark>Java</mark>  
       - Testing: 
           - <mark>Jmeter</mark> <mark>Selenium</mark>
       - Operating Systems:
-          - <mark>Windows</mark> <mark>Ubuntu</mark>  
+          - <mark>Windows</mark> <mark>Ubuntu</mark> 
       - Web Servers:
           - <mark>Tomcat</mark> <mark>Nginx</mark>
       - Others: 
