@@ -31,6 +31,10 @@ telegram_username: elmcy
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
+additional_links:
+  - title: Telegram
+    icon: fab fa-telegram
+    url: https://t.me/+79996260598
 # Additional icon links
 # additional_links:
 # - title: itsgoingto.be
@@ -102,7 +106,7 @@ content:
           - Operating Systems: <mark>Windows</mark> <mark>Ubuntu</mark> 
 
           - Web Servers: <mark>Tomcat</mark> <mark>Nginx</mark>
-          
+
           - Others: <mark>Atlassian Jira</mark> <mark>Kafka</mark> <mark>ELK & EFK</mark>
 
 
