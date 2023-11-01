@@ -162,11 +162,8 @@ content:
     content:
       - layout: left
         title: Волгоградский государственный аграрный университет
-      - layout: center  
         caption: 2009 - 2013
-      - layout: right  
-        title: Инженерно-технологический факультет, Механизация сельского хозяйства
-        # description: About education
+        description: Специалист. Инженерно-технологический факультет, Механизация сельского хозяйства
         
   - title: О моих увлечениях
     layout: text
