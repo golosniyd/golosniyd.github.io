@@ -146,21 +146,20 @@ content:
             - настройка и поддержка мониторинга стендов (NodeExporter, Prometheus, Grafana)
             - написание скриптов автоматизации (Bash, Python, Go)
             - создание и поддержка однонодового Kubernetes кластера (+Helm)
-            - описание облачной инфраструктуры с помощью Terraform (AWS)
+            - описание облачной инфраструктуры при помощи Terraform (AWS)
             - поддержка инфраструктуры проекта (Docker, Tomcat, Kafka, Jira, ELK)
             - определение и настройка политики резервного копирования (PostgreSQL)
             
             QA:
             - тестирование ERP системы (Тестирование требований, Смоук, Функциональное, Регрессионное)
-            - написание проектной документации
+            - написание проектной документации (Confluence)
             - нагрузочное тестирование (Jmeter)
             - RnD активности (e.g. Puppiteer)
             - фикс минорных багов в коде проекта (Java)
 
-  - title:  # Title for the section
-    layout: list # Type of content section (list/text)
+  - title:  Образование # Title for the section
+    layout: text # Type of content section (list/text)
     content:
-      - layout: center
         title: Волгоградский государственный аграрный университет
         caption: 2009 - 2013
         sub_title: Инженерно-технологический факультет, Механизация сельского хозяйства
