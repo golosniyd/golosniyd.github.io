@@ -166,7 +166,6 @@ content:
   - title: О моих увлечениях
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       Помимо моего интереса к сетям и программированию я увлекаюсь гитарой и видеоиграми.
 
 
