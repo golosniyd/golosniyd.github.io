@@ -75,36 +75,6 @@ content:
   #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   #       description: | # this will include new lines to allow paragraphs
   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  
-  - title: Стек технологий # Title for the section
-    layout: list # Type of content section (list/text)
-    content: 
-      - layout: top-middle
-        description: | # this will include new lines to allow paragraphs
-          - CI/CD Tools: 
-              - <mark>CircleCI</mark> <mark>ArgoCD</mark>
-          - Databases: 
-              - <mark>PostgreSQL</mark>
-          - Containers & Orhchestration: 
-              - <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
-          - Cloud Providers: 
-              - <mark>AWS</mark>
-          - Configuration Management: 
-              - <mark>Ansible</mark>
-          - Infrastructure Provisioning:
-              - <mark>Terraform</mark>    
-          - Source Control: 
-              - <mark>Git</mark>
-          - Programming Languages: 
-              - <mark>Python</mark> <mark>Go</mark>  
-          - Testing: 
-              - <mark>Jmeter</mark> <mark>Selenium</mark>
-          - Operating Systems:
-              - <mark>Windows</mark> <mark>Ubuntu</mark> 
-          - Web Servers:
-              - <mark>Tomcat</mark> <mark>Nginx</mark>
-          - Others: 
-              - <mark>Atlassian Jira</mark> <mark>Kafka</mark> <mark>ELK & EFK</mark>
 
 
   # - title: Certificates # Title for the section
@@ -159,7 +129,38 @@ content:
             - нагрузочное тестирование (Jmeter)
             - RnD активности (e.g. Puppiteer)
             - фикс минорных багов в коде проекта (Java)
-
+ 
+ - title: Стек технологий # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: #
+        description: | # this will include new lines to allow paragraphs
+          - CI/CD Tools: 
+              - <mark>CircleCI</mark> <mark>ArgoCD</mark>
+          - Databases: 
+              - <mark>PostgreSQL</mark>
+          - Containers & Orhchestration: 
+              - <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
+          - Cloud Providers: 
+              - <mark>AWS</mark>
+          - Configuration Management: 
+              - <mark>Ansible</mark>
+          - Infrastructure Provisioning:
+              - <mark>Terraform</mark>    
+          - Source Control: 
+              - <mark>Git</mark>
+          - Programming Languages: 
+              - <mark>Python</mark> <mark>Go</mark>  
+          - Testing: 
+              - <mark>Jmeter</mark> <mark>Selenium</mark>
+          - Operating Systems:
+              - <mark>Windows</mark> <mark>Ubuntu</mark> 
+          - Web Servers:
+              - <mark>Tomcat</mark> <mark>Nginx</mark>
+          - Others: 
+              - <mark>Atlassian Jira</mark> <mark>Kafka</mark> <mark>ELK & EFK</mark>
+  
   - title:  Образование # Title for the section
     layout: list # Type of content section (list/text)
     content:
