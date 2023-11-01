@@ -79,14 +79,10 @@ content:
   - title: Стек технологий # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Стек технологий
-      content:    
-        - layout: top-middle
-          title: Стек технологий
-      content:      
-        - layout: right
-          title: Стек технологий  
+      - layout: top-middle
+        description: | # this will include new lines to allow paragraphs
+        ||CI/CD||Databases||
+        |<mark>CircleCI</mark>|<mark>PostgreSQL</mark>|
   
   - title: Стек технологий # Title for the section
     layout: text # Type of content section (list/text)
