@@ -81,8 +81,10 @@ content:
     content:
       - layout: left
         title: Стек технологий
+    content:    
       - layout: top-middle
-        title: Стек технологий  
+        title: Стек технологий
+    content:      
       - layout: right
         title: Стек технологий  
   
