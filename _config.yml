@@ -134,7 +134,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: #
         description: | # this will include new lines to allow paragraphs
           - CI/CD Tools: 
               - <mark>CircleCI</mark> <mark>ArgoCD</mark>
