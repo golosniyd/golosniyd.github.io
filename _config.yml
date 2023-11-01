@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   Привет, меня зовут Дмитрий и я работаю DevOps/QA инженером.
   В рамках своей профессиональной деятельности я занимаюсь администрированием систем, разработкой скриптов и поддержкой инфраструктуры.
   В дополнение к вышесказанному, имею начальные навыки в работе с облачными сервисами, разработки программного обеспечения и веб-технологиях. 
-  Полный технологический стек представлен ниже
+  Полный стек технологий с которыми я работаю или работал представлен ниже.
 
 
 content:
@@ -75,14 +75,14 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
   
-  - title: Стек технологий с которыми я работаю или работал # Title for the section
+  - title: Стек технологий # Title for the section
     layout: text # Type of content section (list/text)
     content: |
       - CI/CD Tools: 
           - <mark>CircleCI</mark> <mark>ArgoCD</mark>
       - Databases: 
           - <mark>PostgreSQL</mark>
-      - Container Orhchestration: 
+      - Containers & Orhchestration: 
           - <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
       - Cloud Providers: 
           - <mark>AWS</mark>
@@ -138,7 +138,9 @@ content:
         caption: Ноябрь 2019 - По настоящее время
         description: | # this will include new lines to allow paragraphs
             Начал работу как QA Engineer в Sperasoft Studio с 2019 года. Далее, начал выполнять работу как DevOps Engineer.
+
             Моя зона ответственности на проекте включает следующее:  
+            
             DevOps:
             - администрирование пяти тестовых стендов (Ubuntu)
             - настройка и поддержка мониторинга стендов (NodeExporter, Prometheus, Grafana)
@@ -147,6 +149,7 @@ content:
             - описание облачной инфраструктуры с помощью Terraform (AWS)
             - поддержка инфраструктуры проекта (Docker, Tomcat, Kafka, Jira, ELK)
             - определение и настройка политики резервного копирования (PostgreSQL)
+            
             QA:
             - тестирование ERP системы (Тестирование требований, Смоук, Функциональное, Регрессионное)
             - написание проектной документации
