@@ -81,12 +81,12 @@ content:
     content:
       - layout: left
         title: Стек технологий
-    content:    
-      - layout: top-middle
-        title: Стек технологий
-    content:      
-      - layout: right
-        title: Стек технологий  
+      content:    
+        - layout: top-middle
+          title: Стек технологий
+      content:      
+        - layout: right
+          title: Стек технологий  
   
   - title: Стек технологий # Title for the section
     layout: text # Type of content section (list/text)
