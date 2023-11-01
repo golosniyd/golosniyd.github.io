@@ -81,7 +81,8 @@ content:
     content:
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
-        ||CI/CD||Databases||
+        |CI/CD|Databases|
+        | ---- |:----:| ----:|
         |<mark>CircleCI</mark>|<mark>PostgreSQL</mark>|
   
   - title: Стек технологий # Title for the section
