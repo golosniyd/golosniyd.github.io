@@ -10,6 +10,7 @@ name: Дмитрий Голосный
 title: DevOps Engineer
 email: dmitriy.golosniy@ya.ru
 website: https://golosniyd.github.io
+telegram: @elmcy
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -74,6 +75,16 @@ content:
   #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   #       description: | # this will include new lines to allow paragraphs
   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  
+  - title: Стек технологий # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Стек технологий
+      - layout: top-middle
+        title: Стек технологий  
+      - layout: right
+        title: Стек технологий  
   
   - title: Стек технологий # Title for the section
     layout: text # Type of content section (list/text)
