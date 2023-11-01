@@ -158,9 +158,11 @@ content:
             - фикс минорных багов в коде проекта (Java)
 
   - title:  Образование # Title for the section
-    layout: text # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
+      - layout: left
         title: Волгоградский государственный аграрный университет
+      - layout: right  
         caption: 2009 - 2013
         sub_title: Инженерно-технологический факультет, Механизация сельского хозяйства
         # description: About education
