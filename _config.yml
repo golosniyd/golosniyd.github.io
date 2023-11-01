@@ -81,30 +81,29 @@ content:
     content: 
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
-          - CI/CD Tools: 
-              - <mark>CircleCI</mark> <mark>ArgoCD</mark>
-          - Databases: 
-              - <mark>PostgreSQL</mark>
-          - Containers & Orhchestration: 
-              - <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
-          - Cloud Providers: 
-              - <mark>AWS</mark>
-          - Configuration Management: 
-              - <mark>Ansible</mark>
-          - Infrastructure Provisioning:
-              - <mark>Terraform</mark>    
-          - Source Control: 
-              - <mark>Git</mark>
-          - Programming Languages: 
-              - <mark>Python</mark> <mark>Go</mark>  
-          - Testing: 
-              - <mark>Jmeter</mark> <mark>Selenium</mark>
-          - Operating Systems:
-              - <mark>Windows</mark> <mark>Ubuntu</mark> 
-          - Web Servers:
-              - <mark>Tomcat</mark> <mark>Nginx</mark>
-          - Others: 
-              - <mark>Atlassian Jira</mark> <mark>Kafka</mark> <mark>ELK & EFK</mark>
+          - CI/CD Tools: <mark>CircleCI</mark> <mark>ArgoCD</mark>
+
+          - Databases: <mark>PostgreSQL</mark>
+
+          - Containers & Orhchestration: <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
+
+          - Cloud Providers: <mark>AWS</mark>
+
+          - Configuration Management: <mark>Ansible</mark>
+
+          - Infrastructure Provisioning: <mark>Terraform</mark> 
+
+          - Source Control: <mark>Git</mark>
+
+          - Programming Languages: <mark>Python</mark> <mark>Go</mark>
+
+          - Testing: <mark>Jmeter</mark> <mark>Selenium</mark>
+
+          - Operating Systems: <mark>Windows</mark> <mark>Ubuntu</mark> 
+
+          - Web Servers: <mark>Tomcat</mark> <mark>Nginx</mark>
+          
+          - Others: <mark>Atlassian Jira</mark> <mark>Kafka</mark> <mark>ELK & EFK</mark>
 
 
   # - title: Certificates # Title for the section
