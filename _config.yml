@@ -160,8 +160,9 @@ content:
   - title:  Образование # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Волгоградский государственный аграрный университет
+        link: https://www.volgau.com/
         description: |
         Годы обучения: 2009 - 2013
 
