@@ -29,7 +29,7 @@ about_title: Обо мне
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Привет, меня зовут Дмитрий и я работаю DevOps / Big Data Engineer.
-  Основной фокус — проектирование, развёртывание и поддержка Big Data / Data Science инфраструктуры на базе Ansible, Docker, Kubernetes и Hadoop-экосистемы.
+  Основной фокус — проектирование, развёртывание и поддержка Big Data / Dataflow / Data Science инфраструктуры на базе Ansible, Docker, Kubernetes и Hadoop-экосистемы.
   Занимаюсь автоматизацией CI/CD, мониторингом, логированием, интеграциями безопасности (Keycloak, Kerberos, LDAP/AD, TLS/mTLS) и администрированием кластеров.
 
 
@@ -53,6 +53,14 @@ content:
           Мониторинг и логирование на базе Prometheus, Grafana, Loki, Alertmanager, Alloy и экспортёров.
 
       - layout: top-middle
+        title: Harness (AI-оркестратор)
+        link: https://eastwind.ai/
+        description: |
+          Проектирование оркестратора флота агентов на базе локальных LLM (3–9B параметров).
+          Архитектура: ролевая маршрутизация задач с учётом VRAM/RAM/ролей, Redis Streams, Postgres, FastAPI, React + React Flow, LangGraph, Langfuse.
+          Инференс-адаптеры: Ollama, vLLM, llama-server, SGLang; интеграция с opencode; мониторинг GPU/VRAM, трейсинг и отмена задач.
+
+      - layout: top-middle
         title: SeaweedFS
         link: https://github.com/seaweedfs/seaweedfs
         additional_links:
@@ -60,7 +68,7 @@ content:
             icon: fab fa-github
             url: https://github.com/seaweedfs/seaweedfs
         description: |
-          Участие в развитии распределённой S3-совместимой файловой системы. Работа с Go, Docker Compose, Kubernetes Helm chart, Terraform (AWS), CI/CD.
+          Участие в развитии распределённой S3-совместимой файловой системы.
 
       - layout: top-middle
         title: AdConnect
@@ -78,10 +86,11 @@ content:
     content:
       - layout: top-middle
         description: |
-          - Спроектировал архитектуру S3 Big Data / Data Science platform: от выбора компонентов до сетевой топологии, DMZ и политик безопасности.
+          - Спроектировал архитектуру S3-based Big Data / Data Science platform: от выбора компонентов до сетевой топологии, DMZ и политик безопасности.
           - Внедрил security-интеграции: Keycloak с AD/LDAPS, Kerberos-аутентификация в Hadoop, TLS/mTLS между сервисами, управление секретами через Ansible Vault / HashiCorp Vault.
+          - Спроектировал AI-оркестратор Harness: маршрутизация задач между агентами на локальных LLM с учётом VRAM, ролей и приоритетов; трейсинг через Langfuse, мониторинг GPU/VRAM, интеграция с opencode.
           - Создал работающий автоматизированный прототип и довёл его до промышленного решения, внедрённого у телеком-операторов.
-          - Поддерживаю более 170 прод-хостов и около 40 staging/lab/внутренних машин; AdConnect покрывает 62 хоста в prod-инвентарях (39 + 23)..
+          - Поддерживаю более 170 прод-хостов и около 100 staging/lab/внутренних машин.
 
   - title: Стек технологий
     layout: list
@@ -90,9 +99,11 @@ content:
         description: |
           - **Big Data**: Hadoop, YARN, Spark, Livy, Airflow, Oozie, MLflow, Superset, Jupyter, SeaweedFS, Ozone, Kafka, RabbitMQ, ActiveMQ, ZooKeeper
 
+          - **AI / LLM Orchestration**: LangGraph, Langfuse, Ollama, vLLM, llama.cpp / llama-server, SGLang, LLM routing, GPU/VRAM monitoring, React Flow, opencode integration
+
           - **Configuration Management**: Ansible (Collections, Roles, Playbooks, Molecule, Vault)
 
-          - **CI/CD**: GitLab CI, Jenkins, AgroCD
+          - **CI/CD**: GitLab CI, Jenkins, GitHub Actions
 
           - **Containers & Orchestration**: Docker, Docker Compose, Kubernetes, Helm
 
@@ -112,7 +123,7 @@ content:
 
           - **Operating Systems**: Ubuntu, RHEL, Oracle Linux
 
-          - **Other**: Terraform, Pacemaker/Corosync/PCS, Keepalived, etcd, Nexus, SonarQube
+          - **Other**: Terraform, Docker Swarm, Pacemaker/Corosync/PCS, Keepalived, etcd, Nexus, SonarQube
 
   - title: Опыт
     layout: list
@@ -160,9 +171,8 @@ content:
           - контейнеризация сервисов в Docker, Docker Compose, Kubernetes, Helm
           - работа с облачной инфраструктурой AWS (Terraform)
           - CI/CD в GitLab CI / Jenkins, артефакты в Nexus
-          - участие в развитии SeaweedFS (Go, Helm, Terraform, CI/CD)
-          - поддержка более 170 прод-хостов и около 40 staging/lab/внутренних машин
-          - развёртывание и сопровождение AdConnect на 62 хостах в prod-инвентарях (включая DMZ и SSL/TLS)
+          - участие в развитии SeaweedFS (Go)
+          - поддержка более 170 прод-хостов и около 100 staging/lab/внутренних машин
 
   - title: О моих увлечениях
     layout: text
