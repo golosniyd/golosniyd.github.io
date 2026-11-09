@@ -29,7 +29,7 @@ about_title: Обо мне
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Привет, меня зовут Дмитрий и я работаю DevOps / Big Data Engineer.
-  Основной фокус — проектирование, развёртывание и поддержка Big Data / Data Science инфраструктуры на базе Ansible, Docker, Kubernetes и Hadoop-экосистемы.
+  Основной фокус — проектирование, развёртывание и поддержка Big Data / Data Science инфраструктуры на базе Hadoop-экосистемы.
   Занимаюсь автоматизацией CI/CD, мониторингом, логированием, интеграциями безопасности (Keycloak, Kerberos, LDAP/AD, TLS/mTLS) и администрированием кластеров.
 
 
