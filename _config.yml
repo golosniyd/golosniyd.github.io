@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Дмитрий Голосный
-title: DevOps Engineer
+title: DevOps / Big Data Engineer
 email: dmitriy.golosniy@ya.ru
 website: https://golosniyd.github.io
 telegram: elmcy
@@ -16,176 +16,162 @@ telegram: elmcy
 darkmode: true
 
 # Social links
-# twitter_username: facespics
 github_username:  golosniyd
 telegram_username: elmcy
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
-# linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 additional_links:
   - title: Telegram
     icon: fab fa-telegram
-    url: https://t.me/+79996260598
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+    url: https://t.me/elmcy
 
 # About Section
 about_title: Обо мне
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Привет, меня зовут Дмитрий и я работаю DevOps/QA инженером.
-  В рамках своей профессиональной деятельности я занимаюсь администрированием систем, разработкой скриптов, проектированием и поддержкой инфраструктуры.
-  В дополнение к вышесказанному, имею начальные навыки в работе с облачными сервисами, разработки программного обеспечения и веб-технологиях. 
+  Привет, меня зовут Дмитрий и я работаю DevOps / Big Data Engineer.
+  Основной фокус — проектирование, развёртывание и поддержка Big Data / Data Science инфраструктуры на базе Ansible, Docker, Kubernetes и Hadoop-экосистемы.
+  Занимаюсь автоматизацией CI/CD, мониторингом, логированием, интеграциями безопасности (Keycloak, Kerberos, LDAP/AD, TLS/mTLS) и администрированием кластеров.
 
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  
-  - title: Стек технологий # Title for the section
-    layout: list # Type of content section (list/text)
-    content: 
+  - title: Проекты
+    layout: list
+    content:
       - layout: top-middle
-        description: | # this will include new lines to allow paragraphs
-          - CI/CD Tools: <mark>CircleCI</mark> <mark>ArgoCD</mark>
+        title: Dataflow
+        link: https://eastwind.ai/
+        description: |
+          Продукт для обработки и оркестрации больших данных в экосистеме Hadoop.
+          Стек: Scala/SBT, Hadoop, Spark, YARN, Livy, Oozie, ActiveMQ, PostgreSQL, Jenkins.
+          Сборка и деплой через SBT/Jenkins, запуск Spark/Oozie-джоб, интеграция с Kafka/RabbitMQ и S3-хранилищами.
 
-          - Databases: <mark>PostgreSQL</mark>
+      - layout: top-middle
+        title: Data Science / Big Data Platform
+        link: https://eastwind.ai/
+        description: |
+          Кластеры для аналитики и Data Science: Hadoop, Spark, YARN, Airflow, MLflow, Jupyter, ClickHouse, PostgreSQL HA (Pacemaker/Corosync), Redis, SeaweedFS, Apache Superset.
+          Мониторинг и логирование на базе Prometheus, Grafana, Loki, Alertmanager, Alloy и экспортёров.
 
-          - Containers & Orhchestration: <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Helm</mark>
+      - layout: top-middle
+        title: SeaweedFS
+        link: https://github.com/seaweedfs/seaweedfs
+        additional_links:
+          - title: seaweedfs/seaweedfs
+            icon: fab fa-github
+            url: https://github.com/seaweedfs/seaweedfs
+        description: |
+          Участие в развитии распределённой S3-совместимой файловой системы. Работа с Go, Docker Compose, Kubernetes Helm chart, Terraform (AWS), CI/CD.
 
-          - Cloud Providers: <mark>AWS</mark>
+      - layout: top-middle
+        title: AdConnect
+        link: https://eastwind.ai/
+        additional_links:
+          - title: eastwind.ai
+            icon: fas fa-globe
+            url: https://eastwind.ai/
+        description: |
+          Платформа управления рекламными кампаниями. Инфраструктура включает .NET-микросервисы, React-фронтенды, PostgreSQL, ClickHouse, RabbitMQ, Redis, Keycloak, InfluxDB, Elasticsearch, Grafana.
+          Автоматизация развёртывания и конфигурирования на Ansible.
 
-          - Configuration Management: <mark>Ansible</mark>
+  - title: Достижения
+    layout: list
+    content:
+      - layout: top-middle
+        description: |
+          - Спроектировал архитектуру S3 Big Data / Data Science platform: от выбора компонентов до сетевой топологии, DMZ и политик безопасности.
+          - Внедрил security-интеграции: Keycloak с AD/LDAPS, Kerberos-аутентификация в Hadoop, TLS/mTLS между сервисами, управление секретами через Ansible Vault / HashiCorp Vault.
+          - Создал работающий автоматизированный прототип и довёл его до промышленного решения, внедрённого у телеком-операторов.
+          - Поддерживаю более 170 прод-хостов и около 40 staging/lab/внутренних машин; AdConnect покрывает 62 хоста в prod-инвентарях (39 + 23)..
 
-          - Infrastructure Provisioning: <mark>Terraform</mark> 
+  - title: Стек технологий
+    layout: list
+    content:
+      - layout: top-middle
+        description: |
+          - **Big Data**: Hadoop, YARN, Spark, Livy, Airflow, Oozie, MLflow, Superset, Jupyter, SeaweedFS, Ozone, Kafka, RabbitMQ, ActiveMQ, ZooKeeper
 
-          - Source Control: <mark>Git</mark>
+          - **Configuration Management**: Ansible (Collections, Roles, Playbooks, Molecule, Vault)
 
-          - Programming Languages: <mark>Python</mark> <mark>Go</mark>
+          - **CI/CD**: GitLab CI, Jenkins, AgroCD
 
-          - Testing: <mark>Jmeter</mark> <mark>Selenium</mark>
+          - **Containers & Orchestration**: Docker, Docker Compose, Kubernetes, Helm
 
-          - Operating Systems: <mark>Windows</mark> <mark>Ubuntu</mark> 
+          - **Cloud Providers**: AWS (EC2, EBS, S3, Terraform)
 
-          - Web Servers: <mark>Tomcat</mark> <mark>Nginx</mark>
+          - **Databases**: PostgreSQL, ClickHouse, MySQL, MS SQL, Oracle, Redis, MongoDB, Cassandra, Elasticsearch
 
-          - Others: <mark>Atlassian Jira</mark> <mark>Kafka</mark> <mark>ELK & EFK</mark>
+          - **Monitoring & Logging**: Prometheus, Grafana, Alertmanager, Loki, Grafana Alloy, Telegraf, OpenTelemetry, Gatus, Zabbix
 
+          - **Security & Auth**: Keycloak, LDAP/AD, LDAPS, Kerberos, Apache Ranger, Ansible Vault, HashiCorp Vault, TLS/mTLS
 
-  # - title: Certificates # Title for the section
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #       title: AWS
-  #       sub_title: AWS Certified Solutions Architect - Associate
-  #       caption: 2019 - Present
+          - **Network & DMZ**: nginx, DNS, VPN, firewall, DMZ, SSL/TLS certificates
 
-  #     - layout: left
-  #       title: Kubernetes
-  #       sub_title: Certified Kubernetes Administrator
-  #       caption: 2022 - Present  
+          - **Programming Languages**: Python, Go, Bash, Scala, C# / .NET (basic)
 
-  #     - layout: left
-  #       title: Docker
-  #       sub_title: Docker Certified Associate
-  #       caption: 2022 - Present
+          - **Web & Frontend**: nginx, React, TypeScript, Vite, Node.js
 
-  #     - layout: left
-  #       title: Linux
-  #       sub_title: Linux Certified System Administrator
-  #       caption: 2022 - Present  
+          - **Operating Systems**: Ubuntu, RHEL, Oracle Linux
 
-  - title: Опыт # Title for the section
-    layout: list # Type of content section (list/text)
+          - **Other**: Terraform, Pacemaker/Corosync/PCS, Keepalived, etcd, Nexus, SonarQube
+
+  - title: Опыт
+    layout: list
     content:
       - layout: left
         title: Sperasoft Studio
         link: https://sperasoft.com/
-        # link_text: boringcompany.com
-        sub_title: QA M2/DevOps Engineer
-        caption: Ноябрь 2019 - По настоящее время
-        description: | # this will include new lines to allow paragraphs
-            Начал работу как QA Engineer в Sperasoft Studio с 2019 года. Далее, по мере роста скилов, начал выполнять работу как DevOps Engineer.
+        sub_title: QA / DevOps Engineer
+        caption: Ноябрь 2019 - Январь 2023
+        description: |
+          Начал карьеру как QA Engineer, далее перешёл в DevOps-направление.
 
-            Моя зона ответственности на проекте включает следующее:  
-            
-            DevOps:
-            - администрирование 15-ти тестовых стендов (Ubuntu)
-            - настройка и поддержка мониторинга стендов (NodeExporter, Prometheus, Grafana)
-            - написание скриптов автоматизации (Bash, Python, Go)
-            - создание и поддержка Kubernetes кластера (+ Helm)
-            - описание облачной инфраструктуры при помощи Terraform (AWS)
-            - поддержка инфраструктуры проекта (Docker, Tomcat, Kafka, Jira, ELK)
-            - определение и настройка политики резервного копирования (PostgreSQL)
-            - проектирование и реализация инфраструктуры для проекта (Docker Swarm)
-            - настройка пайплайнов для непрерывной интеграции и доставки кода (GitLab CI)
-            
-            QA:
-            - тестирование ERP системы (Тестирование требований, Смоук, Функциональное, Регрессионное)
-            - написание проектной документации (Confluence)
-            - нагрузочное тестирование (Jmeter)
-            - RnD активности (e.g. Puppiteer)
-            - фикс минорных багов в коде проекта (Java)
+          **DevOps:**
+          - администрирование 15+ тестовых стендов (Ubuntu)
+          - мониторинг на базе Node Exporter, Prometheus, Grafana
+          - автоматизация на Bash, Python, Go
+          - развёртывание и поддержка Kubernetes-кластера (Helm)
+          - инфраструктура в AWS через Terraform
+          - CI/CD пайплайны в GitLab CI
+          - поддержка Docker, Kafka, Jira, ELK
+          - резервное копирование PostgreSQL
+          - проектирование инфраструктуры на Docker Swarm
 
-  - title:  Образование # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Волгоградский государственный аграрный университет
-        caption: 2009 - 2013
-        sub_title: Специалист
-        sub_title: Инженерно-технологический факультет, Механизация сельского хозяйства
-        link: https://www.volgau.com/
-        
+          **QA:**
+          - функциональное, регрессионное и смоук-тестирование ERP-системы
+          - нагрузочное тестирование в JMeter и UI-автотесты в Selenium
+          - написание тестовой документации в Confluence
+          - мелкие исправления на Java
+          - поддержка legacy-стеков (Tomcat)
+
+      - layout: left
+        title: Eastwind
+        link: https://eastwind.ai/
+        sub_title: DevOps / Big Data Engineer
+        caption: Март 2024 - По настоящее время
+        description: |
+          Работа над инфраструктурой Big Data / Dataflow / Data Science и платформой AdConnect / AdTarget.
+
+          **DevOps / Big Data:**
+          - проектирование и поддержка инфраструктуры на Ansible (collections, roles, playbooks, Molecule, Vault)
+          - развёртывание и сопровождение Big Data кластеров: Hadoop, YARN, Spark, Livy, Airflow, Oozie, MLflow, Jupyter, SeaweedFS, Apache Superset
+          - развёртывание и сопровождение: ClickHouse, PostgreSQL HA (Pacemaker/Corosync/PCS), Redis, RabbitMQ, Keycloak, InfluxDB, Elasticsearch, nginx
+          - построение стека мониторинга и логирования: Prometheus, Grafana, Alertmanager, Loki, Grafana Alloy, Node/Blackbox/Postgres/Redis/YARN/nginx exporters
+          - security-интеграции: Keycloak + AD/LDAPS, Kerberos в Hadoop, TLS/mTLS, Ansible Vault / HashiCorp Vault
+          - контейнеризация сервисов в Docker, Docker Compose, Kubernetes, Helm
+          - работа с облачной инфраструктурой AWS (Terraform)
+          - CI/CD в GitLab CI / Jenkins, артефакты в Nexus
+          - участие в развитии SeaweedFS (Go, Helm, Terraform, CI/CD)
+          - поддержка более 170 прод-хостов и около 40 staging/lab/внутренних машин
+          - развёртывание и сопровождение AdConnect на 62 хостах в prod-инвентарях (включая DMZ и SSL/TLS)
+
   - title: О моих увлечениях
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Помимо моего интереса к сетям и программированию я увлекаюсь гитарой и видеоиграми.
+      Увлекаюсь моддингом видеоигр и экспериментами с open-source инфраструктурными проектами.
 
-
-# Look at this cool image  
-# ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
