@@ -53,6 +53,14 @@ content:
           Мониторинг и логирование на базе Prometheus, Grafana, Loki, Alertmanager, Alloy и экспортёров.
 
       - layout: top-middle
+        title: Runbooks (agent skills)
+        link: https://eastwind.ai/
+        description: |
+          Операционные ранбуки в формате agent skills для opencode: пошаговые инструкции, читаемые человеком и агентом.
+          Примеры: установка NVIDIA driver + CUDA + Docker с пересборкой ядра под драйвер, диагностика и обновление TLS-сертификатов nginx/WAF/DMZ.
+          Структура SKILL.md с YAML-frontmatter, скриптами, references, rollback и чек-листами.
+
+      - layout: top-middle
         title: AI-оркестратор
         link: https://eastwind.ai/
         description: |
@@ -79,6 +87,7 @@ content:
           - Спроектировал архитектуру Big Data / Data Science S3-based platform: от выбора компонентов до сетевой топологии, DMZ и политик безопасности до участии в доработках open-source решений.
           - Внедрил security-интеграции: Keycloak с AD/LDAPS, Kerberos-аутентификация в Hadoop, TLS/mTLS между сервисами, управление секретами через Ansible Vault / HashiCorp Vault.
           - Спроектировал AI-оркестратор: маршрутизация задач между агентами на локальных LLM с учётом VRAM, ролей и приоритетов; трейсинг через Langfuse, мониторинг GPU/VRAM, интеграция с opencode.
+          - Разработал операционные ранбуки в формате agent skills для использования командой как единого формата для людей и агентов.
           - Создал несколько работающих автоматизированных прототипов и довёл их до промышленного решения, внедрённого у телеком-операторов.
           - Поддерживаю более 170 прод-хостов и около 100 staging/lab/внутренних машин.
 
@@ -89,7 +98,7 @@ content:
         description: |
           - **Big Data**: Hadoop, YARN, Spark, Livy, Airflow, Oozie, MLflow, Superset, Jupyter, SeaweedFS, Ozone, Kafka, RabbitMQ, ActiveMQ, ZooKeeper
 
-          - **AI / LLM Orchestration**: LangGraph, Langfuse, Ollama, vLLM, llama.cpp / llama-server, SGLang, LLM routing, GPU/VRAM monitoring, React Flow, opencode integration
+          - **AI / LLM Orchestration**: LangGraph, Langfuse, Ollama, vLLM, llama.cpp / llama-server, SGLang, LLM routing, GPU/VRAM monitoring, React Flow, opencode skills / runbooks as code, opencode integration
 
           - **Configuration Management**: Ansible (Collections, Roles, Playbooks, Molecule, Vault)
 
